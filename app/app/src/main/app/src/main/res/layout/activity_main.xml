@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="20dp" android:background="#0b141a">
+    <TextView android:text="🎯 PUBG Tracker" android:textColor="#FFD700" android:textSize="26sp"
+        android:layout_gravity="center" android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/pid" android:hint="آيدي اللاعب" android:textColorHint="#888"
+        android:textColor="#fff" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+    <Spinner android:id="@+id/server" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Spinner android:id="@+id/device" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btn" android:text="🎯 تتبع" android:layout_marginTop="16dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:id="@+id/out" android:textColor="#00FF7F" android:textSize="15sp"
+            android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>
